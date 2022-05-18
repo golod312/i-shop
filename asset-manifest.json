@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/i-shop/static/css/main.ab74e8ca.chunk.css",
+    "main.js": "/i-shop/static/js/main.8feda375.chunk.js",
+    "main.js.map": "/i-shop/static/js/main.8feda375.chunk.js.map",
+    "runtime~main.js": "/i-shop/static/js/runtime~main.21f950c3.js",
+    "runtime~main.js.map": "/i-shop/static/js/runtime~main.21f950c3.js.map",
+    "static/css/2.8bd440b1.chunk.css": "/i-shop/static/css/2.8bd440b1.chunk.css",
+    "static/js/2.9b054881.chunk.js": "/i-shop/static/js/2.9b054881.chunk.js",
+    "static/js/2.9b054881.chunk.js.map": "/i-shop/static/js/2.9b054881.chunk.js.map",
+    "index.html": "/i-shop/index.html",
+    "precache-manifest.cbce83130778c51fcedf2bb6a4082d8c.js": "/i-shop/precache-manifest.cbce83130778c51fcedf2bb6a4082d8c.js",
+    "service-worker.js": "/i-shop/service-worker.js",
+    "static/css/2.8bd440b1.chunk.css.map": "/i-shop/static/css/2.8bd440b1.chunk.css.map",
+    "static/css/main.ab74e8ca.chunk.css.map": "/i-shop/static/css/main.ab74e8ca.chunk.css.map",
+    "static/media/font-awesome.min.css": "/i-shop/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
