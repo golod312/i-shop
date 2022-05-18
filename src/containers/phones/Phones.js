@@ -13,10 +13,10 @@ class Phones extends Component {
                     this.props.fetchCategories()
           }
 
-          renderPhone(phone) {
+          renderPhone(phone, index) {
                     const shortDiscription = phone.description.substring(0, 60)
                     const { addPhoneToBasket } = this.props
-                    return (<div className="col-sm-4 col-lg-4 col-md-4 book-list" key={phone.id}>
+                    return (<div className="col-sm-4 col-lg-4 col-md-4 book-list" key={index}>
                               <div className="thumbnail">
                                         <img
                                                   src={phone.image}
@@ -55,7 +55,7 @@ class Phones extends Component {
                               <Layout>
                                         <div>
                                                   <div className="books row">
-                                                            {phones.map((phone) => this.renderPhone(phone))}
+                                                            {phones.map((phone, index) => this.renderPhone(phone, index))}
                                                   </div>
                                                   <div className="row ">
                                                             <div className="col-md-12">

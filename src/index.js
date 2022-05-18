@@ -8,12 +8,13 @@ import { applyMiddleware, createStore } from "redux"
 import { createBrowserHistory } from 'history'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
-import { ConnectedRouter, routerMiddleware } from 'connected-react-router'
+import { routerMiddleware } from 'connected-react-router'
 
 import createRootReducer from './reducers/index'
 import { Provider } from 'react-redux'
 
 import routes from './routes'
+import { HashRouter } from 'react-router-dom'
 
 
 const history = createBrowserHistory()
@@ -31,9 +32,9 @@ const store = createStore(
 
 ReactDOM.render(
   <Provider store={store}>
-    <ConnectedRouter history={history}>
+    <HashRouter history={history}>
       {routes}
-    </ConnectedRouter>
+    </HashRouter>
   </Provider>,
   document.getElementById('root')
 )
