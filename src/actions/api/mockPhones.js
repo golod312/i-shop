@@ -54,7 +54,7 @@ export default [
                     description:
                               'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies lorem odio, at laoreet tellus sodales in. Nullam maximus eros ut tortor ultricies rutrum. Aliquam euismod lacus non est egesta',
                     price: 674,
-                    image: '/uploads/Lumia1520-Front-Back-png.png',
+                    image: '/uploads/Nokia_3.jpeg',
                     cpu: '1.3GHz Apple A6',
                     camera: '8mp (3264x2448)',
                     size: '124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)',
